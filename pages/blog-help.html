@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSDK</title>
+  <!-- I really liked Tufte CSS for a blog styled websites? simplistic, very much! -->
+  <!-- but I want to use a cdn for hopefully obvious reasons? -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/edwardtufte/tufte-css@gh-pages/tufte.css"/>
+</head>
+<body>
+  <!-- Page title / intro -->
+  <h1>Tufte CSS test page</h1>
+  <p class="subtitle">
+    A quick set of elements to see what Tufte CSS does out of the box.
+  </p>
+
+  <!-- Header section -->
+  <h2>Headers</h2>
+  <h1>Header one</h1>
+  <h2>Header two</h2>
+  <h3>Header three</h3>
+
+  <hr>
+
+  <!-- Regular text elements-->
+  <h2>Regular text</h2>
+  <p class="subtitle">
+    this is a p.subtitle
+  </p>
+  <p class="numeral">
+    This is a numeral... 23+45 (.numeral)
+  </p>
+  <p class="danger">
+    DANGER... (.danger)
+  </p>
+  <p>
+    This is a regular p?
+  </p>
+
+  <hr>
+
+  <!-- Blockquotes + margin notes -->
+  <h2>Blockquote + sidenotes</h2>
+  <blockquote>
+    <p>This is a (p) inside a block quote</p>
+    <footer>This is a footer for the block quote as well?</footer>
+    <p class="sidenote">This is a sidenote</p>
+    <p class="marginnote">This is another margin note!</p>
+  </blockquote>
+
+  <hr>
+
+  <!-- Links -->
+  <h2>Links</h2>
+  <p>
+    Here is a normal link:
+    <a href="https://github.com/edwardtufte/tufte-css">tufte-css on GitHub</a>
+  </p>
+  <p>
+    And a second one to compare visited styling:
+    <a href="https://example.com">example.com</a>
+  </p>
+
+  <hr>
+
+  <!-- Code -->
+  <h2>Code</h2>
+  <p>
+    Inline code looks like this: <code>const hello = "world"</code>
+  </p>
+  <pre><code>
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(23, 45));
+  </code></pre>
+
+  <hr>
+
+  <!-- Figures -->
+  <h2>Images / figures</h2>
+  <figure>
+    <img src="https://placehold.co/900x500" alt="Placeholder image for testing figure sizing">
+    <figcaption>
+      This is a figcaption. It should sit in the margin on wider screens.
+    </figcaption>
+  </figure>
+
+  <hr>
+
+  <!-- Tables -->
+  <h2>Tables</h2>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Thing</th>
+          <th>Value</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Font</td>
+          <td>et-book</td>
+          <td>Primary serif typeface</td>
+        </tr>
+        <tr>
+          <td>Background</td>
+          <td>#fffff8</td>
+          <td>Classic Tufte paper-like tone</td>
+        </tr>
+        <tr>
+          <td>Dark mode</td>
+          <td>prefers-color-scheme</td>
+          <td>Auto switches when supported</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <!-- Sections -->
+  <h2>Sections (lists + definition lists)</h2>
+  <section>
+    <dl>
+      <dt>
+        Term 1..?
+      </dt>
+      <dd>Description for that term</dd>
+      <dt>
+        Term 2!
+      </dt>
+      <dd>Another description for another term! Not presidental term tho</dd>
+    </dl>
+    <ol>
+      <li>
+        This is a item inside a ordered list!
+      </li>
+      <li>
+        and another..?
+      </li>
+    </ol>
+    <ul>
+      <li>
+        But a unordered list
+      </li>
+      <li>
+        Hopefully a lot prettier
+      </li>
+    </ul>
+  </section> 
+
+  <hr>
+
+  <!-- Footer -->
+  <h2>Footer</h2>
+  <p>
+    End of test page.
+  </p>
+</body>
+</html>
