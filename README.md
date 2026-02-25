@@ -1,2 +1,3 @@
-# tests
-random test pages and stuff
+# Test Pages
+## What is this?
+This is a "website" full of a few quirky test pages, that can range from one thing to another. Such as but not limited, implementations of a future blog, ect....
