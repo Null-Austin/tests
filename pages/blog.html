@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSDK</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/edwardtufte/tufte-css@v1.8.0/tufte.css"/> <!-- use a static url cause WHY NOT???? -->
+  <style>
+    img{
+      width: 50%;
+    }
+    article#reader-content {
+      padding: 0 !important;
+    }
+    h1:first-of-type{
+      margin-top: 1.3rem !important;
+    }
+    header p a{
+      font-size: 1.5rem;
+      margin-inline: .5rem;
+    }
+
+    /* nav bar */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li>
+        <a href="/articles">Articles</a>
+      </li>
+      <li>
+        <a href="/editors">Editors and Teams</a>
+      </li>
+    </ul>
+  </nav>
+  <article id="reader-content"> <!-- Article for basic keeping i guess :shrug: -->
+    <section id="header">
+      <h1>
+        Pripyat
+      </h1>
+      <p class="subtitle">
+        By <a href="https://github.com/null-austin">Austin Moore</a> @ <a href="https://github.com/austinsdk">AustinSDK</a> <!-- maybe hide the @ or dont show the user's affiliations? -->
+      </p>
+    </section>
+    <section id="content">
+      <!-- im thinking about putting a nice photo right here? Would it look good -->
+      <img src="https://learn.zoner.com/wp-content/uploads/2024/09/chornobyl-the-abandoned-city-of-pripyat.jpg" id="header-photo"> <!-- https://placehold.co/900x450.png -->
+      <h2>About</h2>
+      <p>
+        Pripyat is located in the Kyiv Oblast providence of Ukraine, near the Russian border providing living space to the families of workers, working on the Chernobyl Nuclear Power Plant. Currently, fully being ran by the Soviet Union.
+      </p>
+      <p>
+        Pripyat contains multiple tourist attactions such as the Pripyat amusement park, along with the marvelous Polissya Hotel, or the Azure swimming pools! 
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/October_1996-Swimming_Pool.jpg" alt="A beautiful photo of the Azure Swimming pools!">
+    </section>
+  </article>
+</body>
+</html>
+<!--
+ * # Creator / License
+ * Made with love by Austin Moore @ AustinSDK under an unlicensed license. 
+ * All rights are unreserved, and you may doo anything with this software
+ * The full license may be found at /LICENSE (or the license file found within the Github Repo, currently this is just a test page.)
+ * 
+ * # (Frontend) Dependencies!
+ * - EdwardTufte: Tufte.css
+ * - Null-Austin: Main project files
+-->
